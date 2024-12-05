@@ -1,20 +1,6 @@
 const express = require("express");
 const router = express.Router();
-// const mysql = require("mysql");
 const db = require("./db");
-
-// Configuração do banco de dados MySQL (pode ser movida para outro arquivo de config se necessário)
-// const db = mysql.createConnection({
-//   host: "localhost",
-//   user: "dev",
-//   password: "password",
-//   database: "cadprod",
-// });
-
-// db.connect((err) => {
-//   if (err) throw err;
-//   console.log("Conectado ao banco de dados MySQL");
-// });
 
 // Rota para listar produtos
 router.get("/", (req, res) => {
