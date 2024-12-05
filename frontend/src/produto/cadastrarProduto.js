@@ -11,7 +11,7 @@ document.getElementById('cadastroForm').addEventListener('submit', async functio
     };
   
     try {
-      const response = await fetch('https://sistbackend-api.onrender.com/produtos', {
+      const response = await fetch('/produtos', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

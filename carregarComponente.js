@@ -20,10 +20,6 @@ function carregarComponente(url, elementId) {
 // Carregar o menu 
 carregarComponente("menu.html", "menu");
 
-
-
-
-
   // Função para alternar o menu lateral
   function toggleSidebar() {
     // Obtém referências aos elementos HTML do sidebar e do conteúdo principal
