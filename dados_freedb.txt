@@ -1,0 +1,5 @@
+DB_HOST=sql.freedb.tech
+DB_USER=freedb_devsenac
+DB_PASSWORD=VJfTnF#*j#yE8px
+DB_NAME=freedb_tec_inforrm
+DB_PORT=3306
